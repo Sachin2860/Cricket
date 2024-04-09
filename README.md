@@ -53,14 +53,20 @@ sqlinjection and other types of hacks).
 4. Must Follow solid principles.
 
 
+# Running the project
+  - Download the repository.
+  - No need to do migrations.
+  - Run the server
+    ```$ python manage.py runserver```
+  - Verify the project by navigating to your server address in your preferred browser.
+    ```sh
+    127.0.0.1:8000
+  -For acessing database run
+  ``` 127.0.0.1:8000/admin```
+  -admin  username--admin
+  -admin  password--admin
+  -admin  gmail--admin@gamil.com
+  
 
-  Evaluation Criteria:
 
-This Application will be evaluated on the following based on this
-priority.
 
-1. Coding / Design Style (Object Oriented)
-2. Logic
-3. Output
-4. Testability (Unit Test Cases and TDD)
-5. Solid principle
