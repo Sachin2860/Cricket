@@ -41,17 +41,5 @@ class Matches(models.Model):
     right_team = models.ForeignKey(Team, on_delete=models.CASCADE, related_name="oppsite_team")
     winner_team = models.CharField(max_length = 2, default = '0')
     
-    class Meta:
-        verbose_name_plural = "Matches"
-#   
-    def __str__(self):
-        return "{} Vs {}".format(self.left_team.name, self.right_team.name)
-    
-    @property
-    def get_left_team_name(self):
-        return "".format(self.left_team.name)
-    
-    @property
-    def get_right_team_name(self):
-        return "".format(self.right_team.name)
+
 

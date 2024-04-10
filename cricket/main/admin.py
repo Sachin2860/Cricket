@@ -23,5 +23,5 @@ class PlayersAdmin(admin.ModelAdmin):
 @admin.register(Matches)
 class MatchesAdmin(admin.ModelAdmin):
     list_display = ('left_team', 'right_team', 'winner_team')
-    readonly_fields = ('left_team', 'right_team', 'winner_team')
+
 

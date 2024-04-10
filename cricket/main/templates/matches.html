@@ -3,6 +3,7 @@
 
 {% block content %}
     <h2>Matche Fixtures</h2>
+<br>
     <p>For create the Match Fixtures, please select two are more teams and submit.</p>
     {% include "matches_form.html" %}
     
@@ -33,17 +34,6 @@
     </table>
   
 
-{% endblock %}
-
-{% block script %}
-$(document).ready(function(){
-    $(".check").click(function(){
-        $("#id_teams input").prop("checked", true);
-    });
-    $(".uncheck").click(function(){
-        $("#id_teams input").prop("checked", false);
-    });
-});
 {% endblock %}
 
 {% block css %}

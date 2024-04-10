@@ -9,6 +9,7 @@
    			<th>VS</th>
    			<th>Team B</th>
    		<tr>
+			<br>
    		<tr>
    			<td><img src="{{ match.left_team.logo_url.url }}" width="30" height="30" alt="img">{{ match.left_team }}</td>
    			<td>VS</th>
@@ -16,13 +17,14 @@
    		<tr>
    	</table>
 
-
+<br>
     <form method="POST">{% csrf_token %}
 		{% for each in form %}
 		<div class="myradio">
 		  	{{ each.label }}{{ each }}
 		</div>
 		{% endfor %}
+		<br>
 		<a href="{% url 'main:matches' %}">
 		   <input type="button" class="btn btn-default" value="Cancel" />
 		</a>
