@@ -61,11 +61,11 @@ sqlinjection and other types of hacks).
   - Verify the project by navigating to your server address in your preferred browser.
     ```sh
     127.0.0.1:8000
-  -For acessing database run
+  - For acessing database run
   ``` 127.0.0.1:8000/admin```
-  -admin  username--admin
-  -admin  password--admin
-  -admin  gmail--admin@gamil.com
+  - admin  username--admin
+  - admin  password--admin
+  - admin  gmail--admin@gamil.com
   
 
 
